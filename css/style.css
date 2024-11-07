@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    background-color: skyblue;
+    width: 30%;
+    height: 100vh;
+}
+
+.dashboard h1 {
+    text-align: center;
+    transform: translate(150%);
+    font-size: 3vw;
+}
+
+.search #input {
+    transform: translate(400%, 400%);
+}
+
+.search button {
+    transform: translate(795%, 400%);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+.search button:hover {
+    background-color: rgb(78, 74, 74);
+    color: white;
+}
+
+.search .add-item {
+    transform: translate(1959%, 400%);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+.search .add-item:hover {
+    background-color: rgb(78, 74, 74);
+    color: white;
+}
+
+
+.search #add {
+    transform: translate(780%, 400%);
+}
+
+.heading img {
+    width: 200px;
+    height: 200px;
+    transform: translate(70%, 30%);
+}
+
+.heading p {
+    text-transform: capitalize;
+    transform: translate(10%, -1000%);
+    font-weight: 900;
+}
+
+.option li a {
+text-decoration: none;
+text-transform: capitalize;
+color: black;
+font-weight: 700;
+}
+
+.option li {
+    transform: translate(20%, 200%);
+    list-style: none;
+    margin-top: 9px;
+    font-size: 43px;
+}
+.option li:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    cursor: pointer;
+    transform: translate(30%, 200%);
+}
+.option li:active {
+    color: rgb(4, 238, 54);
+}
+
+.dashboard table {
+    text-transform: capitalize;
+    border-radius: 1px;
+    border-style: none;
+    background-color: rgb(105, 167, 12);
+    transform: translate(60%, -500%);
+    width: 200%;
+}
